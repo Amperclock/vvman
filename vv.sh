@@ -158,7 +158,9 @@ vv() {
             local bashrc="$HOME/.bashrc"
             local bashrc_backup="$HOME/.bashrc.before_removing_vvman"
 
-            _vv_warn "This will permanently remove $_VV_DIR and the source line from $bashrc."
+            _vv_warn "This will permanently remove $_VV_DIR, including ALL venvs and their content, and the source line from $bashrc."
+            echo ""
+            vv list -v
             printf "  [?] Proceed with uninstall? [y/N] "
             read -r answer
             if [[ ! "$answer" =~ ^[Yy]$ ]]; then
