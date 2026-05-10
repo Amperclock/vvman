@@ -1,9 +1,11 @@
+```
  /$$    /$$ /$$    /$$ /$$$$$$/$$$$   /$$$$$$  /$$$$$$$ 
 |  $$  /$$/|  $$  /$$/| $$_  $$_  $$ |____  $$| $$__  $$
  \  $$/$$/  \  $$/$$/ | $$ \ $$ \ $$  /$$$$$$$| $$  \ $$
   \  $$$/    \  $$$/  | $$ | $$ | $$ /$$__  $$| $$  | $$
    \  $/      \  $/   | $$ | $$ | $$|  $$$$$$$| $$  | $$
     \_/        \_/    |__/ |__/ |__/ \_______/|__/  |__/
+```
 
 A vibecoded minimal Python virtual environment manager for Linux. Create, activate, list and delete venvs from a single shell function.
 
